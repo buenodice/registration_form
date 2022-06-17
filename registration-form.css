@@ -1,0 +1,124 @@
+body{
+    background-image: url(./Registration-form/images/bg-intro-desktop.png);
+    background-color: hsl(0, 100%, 74%);
+    background-blend-mode: overlay;
+}
+section{
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    font-size: 16px;
+    padding-top: 2rem;
+    font-family: 'Poppins', sans-serif;
+    
+    
+}
+
+.sect1{
+    height: 60vh;
+    display: flex;
+    place-items: center;
+    margin-top: 7rem;
+    color: white;
+    padding-left: 2rem;
+    margin-left: 12rem;
+    
+}
+
+h1{
+    max-width: 400px;
+    font-size: 3rem;
+    padding-top: 4rem;
+}
+
+p{
+    max-width: 500px;
+    padding-bottom: 5rem;
+}
+
+.sect2{
+    text-align: center;
+    width: 35%;
+    margin-right: 3rem;
+}
+
+span{
+    color: hsl(0, 100%, 74%);
+}
+
+table{
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+
+input {
+    width: 25rem;
+    height: 3rem;
+    padding-left: 2rem;
+    margin: 1rem 3rem;
+}
+
+.click{
+    text-align: center;
+    background-color: hsl(154, 59%, 51%);
+    border-radius: 0.5rem;
+    border: solid hsl(154, 59%, 51%);
+    font-size: 20px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+h3{
+    background-color: hsl(249, 10%, 26%);
+    height: 1rem;
+    padding: 1rem;
+    color: white;
+    font-size: 16px;
+    border-radius: 0.5rem;
+}
+ 
+h5{
+    color: gray;
+}
+
+.second{
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+   
+}
+
+@media only screen and (max-width:720px) {
+    section{
+      display: flex;
+      flex-wrap: wrap;
+      margin: auto;
+      padding: 0;
+    }
+
+    .sect1{
+        margin: auto;
+    }
+
+    .sect2{
+        margin: auto;
+        width: 90%;
+    }
+
+    input{
+        width: 70%;
+    }
+
+    body{
+        background-image: url(./Registration-form/images/bg-intro-mobile.png);
+        background-color: hsl(0, 100%, 74%);
+        background-blend-mode: overlay;
+    }
+}
