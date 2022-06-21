@@ -1,2 +1,2 @@
 # responsiveness
-to preview: https://buenodice.github.io/responsiveness-/
+to preview: https://buenodice.github.io/responsiveness/
