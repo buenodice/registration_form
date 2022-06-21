@@ -1,5 +1,5 @@
 body{
-    background-image: url(./Registration-form/images/bg-intro-desktop.png);
+    background-image: url(./images/bg-intro-desktop.png);
     background-color: hsl(0, 100%, 74%);
     background-blend-mode: overlay;
 }
@@ -101,6 +101,7 @@ h5{
       flex-wrap: wrap;
       margin: auto;
       padding: 0;
+      
     }
 
     .sect1{
@@ -113,12 +114,19 @@ h5{
     }
 
     input{
-        width: 70%;
+        width: 78%;
+        
+    }
+
+    .click{
+        width: 90%;
+        
     }
 
     body{
-        background-image: url(./Registration-form/images/bg-intro-mobile.png);
+        background-image: url(./images/bg-intro-mobile.png);
         background-color: hsl(0, 100%, 74%);
         background-blend-mode: overlay;
+        width: 96%;
     }
 }
