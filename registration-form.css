@@ -1,5 +1,5 @@
 body{
-    background-image: url(./images/bg-intro-desktop.png);
+    background-image: url(./bg-intro-desktop.png);
     background-color: hsl(0, 100%, 74%);
     background-blend-mode: overlay;
 }
@@ -124,7 +124,7 @@ h5{
     }
 
     body{
-        background-image: url(./images/bg-intro-mobile.png);
+        background-image: url(./bg-intro-mobile.png);
         background-color: hsl(0, 100%, 74%);
         background-blend-mode: overlay;
         width: 96%;
